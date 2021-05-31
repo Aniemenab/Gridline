@@ -1,0 +1,230 @@
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index:99999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    
+    margin: auto;
+    margin-top: -3%;
+    padding: 0;
+    width: 50%;
+    
+   
+    
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Hide the slides by default */
+  .mySlides {
+    display: none;
+  width: 95%;
+  height: 540px;
+  background-color: #fefefe;
+  margin: auto;
+  border-radius: 5px;
+  }
+  
+  .mySlides img{
+      width:100%;
+      height:450px;
+      margin-top: 10px;
+      
+     
+      
+  }
+  /* Next & previous buttons */
+  .prev{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    border-radius: 10%;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+  padding: 5px;
+  border: 1px #004500 solid;
+      color: #004500;
+  border-radius: 100%;
+  
+  }
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 6%;
+    border-radius: 3px 0 0 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+    margin-top: -50px;
+    color: transparent;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: white;
+    border-radius: 100%;
+    border: 1px #004500 solid;
+    color: #004500;
+}
+
+  
+  /* Caption text */
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  .curve{
+    width:170px;
+    height: 45px;
+    background-color: white;
+    border: 3px solid #00463f;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    
+    margin-left:35%;
+    margin-top: 5%;
+    margin: auto;
+  
+  }
+  .curve2{
+    width:190px;
+    height: 45px;
+    background-color: white;
+    border: 3px solid #00463f;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    margin-left:40%;margin: auto;
+  }
+
+@media screen and (max-width:480px){
+	.modal-content {
+	  position: relative;
+	
+	  margin: auto;
+	  margin-top: -3%;
+	  padding: 0;
+	  width: 70%;
+	  
+	 
+	  
+	}
+	.mySlides {
+	  display: none;
+	width: 100%;
+	height: 499px;
+
+	margin: auto;
+	border-radius: 5px;
+	}
+	
+	.mySlides img{
+		width:94%;
+		height:400px;
+		margin: 10px;
+	}
+  }
+@media screen and (max-width:460px){
+  .modal-content {
+    position: relative;
+    
+    margin: auto;
+    margin-top: -3%;
+    padding: 0;
+    width: 70%;
+    
+   
+    
+  }
+  .mySlides {
+    display: none;
+  width: 100%;
+  height: 499px;
+  
+  margin: auto;
+  border-radius: 5px;
+  }
+  
+  .mySlides img{
+      width:94%;
+      height:400px;
+      margin: 10px;
+  }
+}
+@media screen and (max-width:360px){
+    .modal-content {
+      position: relative;
+     
+      margin: auto;
+      margin-top: -3%;
+      padding: 0;
+      width: 75%;
+      
+     
+      
+    }
+    .mySlides {
+      display: none;
+    width: 100%;
+    height: 499px;
+   
+    margin: auto;
+    border-radius: 5px;
+    }
+    
+    .mySlides img{
+        width:94%;
+        height:400px;
+        margin: 10px;
+    }
+  }

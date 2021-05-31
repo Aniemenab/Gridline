@@ -1,0 +1,113 @@
+              nav {
+                  height: auto;
+                  z-index: -999;
+              }
+              
+              .bg-light {
+                  transition: 750ms ease;
+                  color: white;
+                  background-color: transparent!important;
+              }
+              
+              .bg-light.scrolled {
+                  background-color: #00463f !important;
+                  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.5);
+              }
+              
+              .navbar-yellow {
+                  background-color: #00463f!important;
+              }
+              
+              .navbar-nav,
+              #navbarNav a {
+                  width: auto;
+                  color: white!important;
+                  margin: 5px;
+                  font-size: 19px;
+              }
+              
+              .navbar-collapse {
+                  margin-left: 34%;
+              }
+              
+              .nav-item {
+                  display: inline-block;
+              }
+              
+              .navbar-nav {
+                  margin: auto;
+              }
+              
+              .navbar-nav li {
+                  height: 44px;
+                  width: auto;
+                  border: 1px solid transparent;
+                  transition: border-bottom 1s ease;
+              }
+              
+              .navbar-nav a {
+                  text-decoration: none;
+                  transition: color .5s;
+                  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              }
+              
+              .navbar-nav li:hover {
+                  border-bottom: 1px solid white;
+                  width: auto;
+              }
+              
+              .dropdown-menu {
+                  color: black!important;
+                  background-color: #00463f;
+              }
+              
+              .dropdown-menu a:hover {
+                  text-decoration: underline;
+                  background-color: #00463f;
+              }
+              
+              .navbar-toggler-icon {
+                  background-color: white!important;
+                  border: 1px solid white!important;
+                  width: 40px;
+                  height: 35px;
+              }
+              
+              @media screen and (max-width:991px) {
+                  .navbar-collapse {
+                      margin-left: -5px;
+                  }
+                  .nav-item {
+                      display: block;
+                  }
+                  .navbar ul {
+                      float: left;
+                      width: 100%;
+                  }
+                  .nav-link a:hover {
+                      border-bottom: 1px solid white;
+                  }
+                  .nav-link {
+                      margin-top: 40px;
+                  }
+                  .bg-light.scrolled {
+                      background-color: #00463f !important;
+                      box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.5);
+                  }
+              }
+              
+              .about {
+                  height: 40px;
+                  color: white;
+                  text-align: right;
+              }
+              
+              .head-cvr .navbar-brand a {
+                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              }
+              
+              @media screen and (max-width:360px) {
+                  .navbar-nav li:hover {
+                      border-bottom: 1px solid #00463f;
+                  }
+              }

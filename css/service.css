@@ -1,0 +1,331 @@
+body {
+    margin: 0;
+}
+
+.head {
+    width: 100%;
+    height: 300px;
+    background-image: url('/image/screen/Screenshot_20201126-093318.png');
+}
+
+.head-cvr {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    font-weight: bold;
+    font-size: xxx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contain {
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    width: 90%;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 1%;
+    display: flex;
+    position: relative;
+}
+
+.box p {
+    color: black;
+}
+
+.box span {
+    margin-top: 3%;
+    color: black;
+}
+
+.i {
+    width: 350px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 40px;
+}
+
+i {
+    font-size: 70px !important;
+    color: white;
+    padding: 0 .4rem;
+    cursor: pointer;
+}
+
+.t {
+    margin-left: 3%;
+}
+
+.comot {
+    clear: both;
+}
+
+.container-box {
+    width: 100%;
+    margin-top: 2%;
+    height: auto;
+    display: grid;
+    background-color: #00463f !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box2 {
+    width: 230px;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 4%;
+    text-align: center;
+    justify-items: center;
+    color: white;
+}
+
+.icon-box {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center!important;
+    margin-left: 15%;
+}
+
+.icon-box .fa,
+.fad,
+.far,
+.fas {
+    font-size: 57px;
+    margin-top: 30%;
+    color: black;
+}
+
+
+/*footer*/
+
+footer {
+    width: 100%;
+    background: url("/image/One_Belleview_Station.jpg");
+    height: auto;
+    margin-top: 3%;
+}
+
+.footer-cvr {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 2%;
+}
+
+.footer-ul {
+    width: 98%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    border-bottom: 1px solid white;
+}
+
+h4 {
+    color: #00463f;
+    font-weight: bolder;
+}
+
+.footer-ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-ul a:hover {
+    text-decoration: underline;
+    color: #00463f;
+}
+
+.list-ul ul {
+    width: 340px;
+    height: auto;
+    color: white;
+    margin-top: 5%;
+    list-style: none;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.list-ul2 ul {
+    margin-top: 5%;
+    width: 250px;
+    height: auto;
+    color: white;
+    list-style: none;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.list-ul3 ul {
+    width: 200px;
+    height: auto;
+    color: white;
+    list-style: none;
+    margin-top: 5%;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.list-ul li,
+.list-ul2 li,
+.list-ul3 li {
+    margin-top: 6%;
+}
+
+.list-ul h4,
+.list-ul2 h4,
+.list-ul3 h4 {
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.last-footer {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all {
+    width: 200px;
+    height: 40px;
+    color: white;
+}
+
+.designer {
+    width: 180px;
+    text-align: right;
+    height: 40px;
+    color: white;
+    float: right;
+    margin-left: 9%;
+}
+
+.designer a {
+    color: white;
+}
+
+.designer a:hover {
+    color: #00463f;
+}
+
+@media screen and (max-width:993px) {
+    .container-box {
+        width: 100%;
+        margin-top: 2%;
+        height: auto;
+        display: grid;
+        background-color: #00463f !important;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:976px) {
+    .footer-ul {
+        grid-template-columns: 1fr 1fr;
+    }
+    .list-ul3 {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:718px) {
+    .footer-ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .box {
+        width: 90%;
+        height: auto;
+        margin-left: 3%;
+        margin-top: 1%;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:777px) {
+    .container-box {
+        width: 100%;
+        margin-top: 2%;
+        height: auto;
+        display: grid;
+        background-color: #00463f !important;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:517px) {
+    .container-box {
+        width: 100%;
+        margin-top: 2%;
+        height: auto;
+        display: grid;
+        background-color: #00463f !important;
+        grid-template-columns: 1fr 1fr;
+    }
+    .box2 {
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width:472px) {
+    .container-box {
+        width: 100%;
+        margin-top: 2%;
+        height: auto;
+        display: grid;
+        background-color: #00463f !important;
+        grid-template-columns: 1fr;
+    }
+    .box2 {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width:412px) {
+    .all,
+    .designer {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .box2 {
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .box2 {
+        margin-left: 16%;
+    }
+    .list-ul,
+    .list-ul2,
+    .list-ul3 {
+        margin-left: -5%;
+    }
+}
+
+@media screen and (max-width:374px) {
+    .list-ul ul,
+    .list-ul2 ul,
+    .list-ul3 ul {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .box2 {
+        margin-left: 12%;
+    }
+}
